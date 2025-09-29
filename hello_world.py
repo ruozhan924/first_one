@@ -7,3 +7,8 @@ def hello_world():
 if __name__ == "__main__":
   hello_world()
   
+new_string = 'about-me-about-you'
+print(new_string.replace('-', ' '))
+print(new_string.replace('-', ' ', 2))
+print(new_string.replace('about', 'with'))
+print(new_string.replace('about', 'with', 1))
